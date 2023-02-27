@@ -1,0 +1,119 @@
+@media screen and (max-width: 768px){
+    .home .nav .nav-right a{
+        display: none;
+    }
+   .home .nav .nav-logo{
+    width:100%;
+    text-align: left;
+    padding-top:20px
+   }
+   .home .nav .nav-right i{
+    opacity:1;
+    font-weight: 900;
+   }
+}
+
+
+@media screen and (max-width: 768px){
+    .about .about-content{
+        flex-direction: column;
+    }
+    .about .about-content .content-left{
+        width:100%;
+
+    }
+     .about .about-content .content-right{
+        width:100%;
+
+
+        
+
+
+    }
+}
+
+@media screen and (max-width: 768px){
+   .numbers .numbers-section{
+    width:50%;                         
+    /* it doesn't work!!!! */
+   
+   }
+
+
+
+    
+}
+
+
+@media screen and (max-width: 768px){
+    .services .services-list{
+        flex-direction: column;
+    }
+    .services .services-list .icon-container{
+        width:100%;
+        padding:20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .summary .summary-content{
+        flex-direction: column;
+        padding:20px 20px;
+    }
+    .summary .summary-content .sumary-box{
+        width:100%;
+        /* padding:20px 0px; */
+    }
+}
+
+@media screen and (max-width: 768px){
+    .my-skills .skill-content{
+        flex-direction: column;
+        
+    }
+    .my-skills .skill-content .skill-design_left{
+        width:100%;
+    }
+    .my-skills button{
+        padding:30px;      
+        /* something wrong!!!!!!!!!!!!!! */
+    }
+}
+
+@media screen and (max-width: 768px){
+    .my-work .images{
+        flex-direction: column;
+    }
+    .my-work .mywork-imgs {
+        width:100%;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .client .client-content{
+        flex-direction: column;
+    }
+    .client .client-content .client-left{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .client .client-content .client-right{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact .contact-content{
+        flex-direction: column;
+        /* m4 3arfa a3mlhaaaa!!!!!!!!!!!!!!!!!!!!!!!!! */
+    }
+}
+
+/* @media screen and (max-width: 768px){
+    .my-work .mywork-imgs {
+        width:50%;
+    }
+} */
+
+
